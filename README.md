@@ -33,6 +33,15 @@ How to write accessible code
     color contrast
     focus colors
   js
+    skip links (github) (webAim)
+    
+ do your own accessibility check
+  tab through your site's experience
+  are there off screen elements that are in the tab order?
+    - menu hidden on certain width, etc. 
+    - remove / disable offscrren content from the tab order
+  run through it with a screen reader
+  run throught the contrast of the site
 
 Tools to check how accessible your pages are:
   WAVE - been around 20 years
@@ -47,4 +56,10 @@ Tools to check how accessible your pages are:
   ATAG - CMS / code editors, etc
   UAAG - web browsers / media players
   how to assess accessibility
-  https://developers.google.com/web/fundamentals/accessibility/how-to-review?utm_source=lighthouse&utm_medium=devtools
+  
+  # Resources
+  - https://www.w3.org/WAI/WCAG21/quickref/
+  
+  - aXe
+  
+  - https://developers.google.com/web/fundamentals/accessibility/how-to-review?utm_source=lighthouse&utm_medium=devtools

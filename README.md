@@ -2,6 +2,9 @@
 Digital Crafts Presentation
 
 What is it
+perceive, understand, navigate, and interact with the Web
+designed and developed so that people with disabilities can use them
+
 how many people are disable in the world
   - numbers vary, but it's like a billion (roughly 1 in 5 people)
   vision alone

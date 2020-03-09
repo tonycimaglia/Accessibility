@@ -1,11 +1,14 @@
 # Accessibilty
-Digital Crafts Presentation
 
-What is it
+## What is Accessibility
+
+What is it at its core?
+  - Making sure that all users have equal access to the information and functionality of your site. 
+  
 perceive, understand, navigate, and interact with the Web
 designed and developed so that people with disabilities can use them
 
-how many people are disable in the world
+how many people are disabled in the world
   - numbers vary, but it's like a billion (roughly 1 in 5 people)
   vision alone
   physical impairments
@@ -17,28 +20,27 @@ reduced dexterity
   captions for videos
 What are the concerns to consider
 
-History
+## Why you should care
 
-Why Should you care?
   - access to the web is a human right
   - improve peoples lives
   - civil rights issue
   - legal implications
 
-How to write accessible code
+## Writing Accessible code
   good layouts
   html most important
-    headings
-    labels for inputs - what happens without them
+    headings - (defined hierarchy)
+    labels for inputs - (screen readers will grasp at straws for text to read)
     alternate tags - does it affect the way the page works without it?
       -reads description / also helps search engines
   css
     color contrast
-    focus colors
+    focus colors (people love removing this!)
   js
     skip links (github) (webAim)
     
- do your own accessibility check
+ ## Conducting a Manual Accessibility Check
   tab through your site's experience
   are there off screen elements that are in the tab order?
     - menu hidden on certain width, etc. 
@@ -46,21 +48,22 @@ How to write accessible code
   run through it with a screen reader
   run throught the contrast of the site
 
+## Automating Accessibility Checks
+
 Tools to check how accessible your pages are:
   WAVE - been around 20 years
   Lighthouse - 
   
-  resources:
-  W3C - WCAG 
+  W3C - WCAG
     perceivable - people can see or hear the content
     operable - use by typing or by voice
     understandable - clear and simple language
     Robust - people can use different assistive technologies
   ATAG - CMS / code editors, etc
   UAAG - web browsers / media players
-  how to assess accessibility
   
   # Resources
+  
   - https://www.w3.org/WAI/WCAG21/quickref/
   
   - aXe

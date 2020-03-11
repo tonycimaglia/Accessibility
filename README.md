@@ -72,7 +72,7 @@ WCAG 2.1 (Current)
 
 - Page navigation and liks work using Only a keyborad
 - Enough Time
-- Seizures are bad. <3 a second
+- Seizures are bad. <3 flashes a second
 - Obvious link text
 
 ## Understandable

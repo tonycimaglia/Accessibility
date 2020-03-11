@@ -6,7 +6,7 @@
 
 Making sure that all users have equal access to the information and functionality of your site.
 
-The users that we're mainly referring to when we discuss a11y (just an abbrevation) are those with physical impairments. It can also refer to users on mobile devices or people using slow internet connections.
+The users that we're mainly referring to when we discuss a11y (abbrevation) are those with physical impairments. It can also refer to users on mobile devices or people using slow internet connections.
 
 Accessible sites are designed designed and developed so that people with disabilities can use them
 
@@ -42,47 +42,49 @@ W3C (World Wide Web Consortium)
 
 Version 8 becomes WCAG 1.0
 
-WCAG 2.1
+WCAG 2.1 (Current)
 
-4 Principles
+4 Principles - examples of a few from each section
 
 ### Percievable
 
-#### people can see or hear the content
+#### People can see or hear the content
 
-    meaningful alt text (helps seo)
-    making sure form elements are labeled (labels can be hidden, screen readers willgrasp at straws for text to read)
-    good contrast
-    removing titles from links
+- meaningful alt text (helps seo)
+- making sure form elements are labeled (labels can be hidden, screen readers willgrasp at straws for text to read)
+- good contrast
+- removing titles from links
 
 ## Operable
 
-####
+#### Users must be able to control UI elements using something
 
-    Page navigation and liks work using Only a keyborad
-    Seizures are bad. <3 a second
-    Obvious link text
+- Page navigation and liks work using Only a keyborad
+- Enough Time
+- Seizures are bad. <3 a second
+- Obvious link text
 
-#### Understandable
+## Understandable
 
-    keep nav in same order
-    clearly identify form errors
+#### information and the operation of user interface must be understandable
 
-#### Robust
+- no tiny font
+- keep nav in same order
+- clearly identify form errors
+- Don't be Ling's Cars...
+  https://www.lingscars.com/
 
-    no errors
-    usable in multiple formats
+### Robust
 
-#### good layouts
+#### content must be robust enough that it can be interpreted reliably by a wide variety of user agents, including assistive technologies
 
-Don't be Ling's Cars...
+- no errors (parsing) https://validator.w3.org/
+- WAI-ARIA roles for custom elements
 
-https://www.lingscars.com/
+### Quick Improvements
 
-#### html easiest most important
-
+    html
     headings - (defined hierarchy)
-
     css
     focus colors (people love removing this!)
     js
@@ -91,20 +93,24 @@ https://www.lingscars.com/
 ## Conducting a Manual Accessibility Check
 
 - Tab through your site's experience.
-  are there off screen elements that are in the tab order?
-  - menu hidden on certain width, etc.
-  - remove / disable offscrren content from the tab order
-  - run through it with a screen reader
-  - run through the contrast of the site
+  are there off screen elements that are in the tab order? (menu hidden on certain width, etc.)
+  - Make sure the site doesn't have focusable non-interactive content.
+  - Remove / disable offscrren content from the tab order
+- run through it with a screen reader
+- run through the contrast of the site
 
 ## Automating Accessibility Checks
 
-Tools to check how accessible your pages are:
-WAVE - been around 20 years
-Lighthouse -
+### Tools to get you started
 
-W3C - WCAG
-perceivable -
+WAVE - 20 years (the standard)
+
+- https://wave.webaim.org/
+
+#### Lighthouse
+
+- https://developers.google.com/web/tools/lighthouse
+
 operable - use by typing or by voice
 understandable - clear and simple language
 Robust - people can use different assistive technologies
@@ -115,6 +121,6 @@ UAAG - web browsers / media players
 
 - https://www.w3.org/WAI/WCAG21/quickref/
 
-- aXe
+- https://www.deque.com/axe/
 
-- https://developers.google.com/web/fundamentals/accessibility/how-to-review?utm_source=lighthouse&utm_medium=devtools
+- https://www.nvaccess.org/

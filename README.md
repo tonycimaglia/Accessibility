@@ -51,7 +51,7 @@ WCAG 2.1 (Current)
 #### People can see or hear the content
 
 - meaningful alt text (helps seo)
-- making sure form elements are labeled (labels can be hidden, screen readers willgrasp at straws for text to read)
+- making sure form elements are labeled (labels can be hidden, screen readers will grasp at straws for text to read)
 - good contrast
 - removing titles from links
 
@@ -97,7 +97,7 @@ WCAG 2.1 (Current)
   - Make sure the site doesn't have focusable non-interactive content.
   - Remove / disable offscrren content from the tab order
 - run through it with a screen reader
-- run through the contrast of the site
+- run through the contrast of the site through wave
 
 ## Automating Accessibility Checks
 

@@ -1,4 +1,4 @@
-# Accessibilty
+# Accessibility
 
 ## What is it?
 
@@ -33,6 +33,17 @@ Captions for videos (hearing impaired)
 - legal implications (ADA)
 
 ## Writing Accessible Code
+
+### Quick Improvements
+
+- html
+  - headings - (defined hierarchy)
+- css
+  - focus colors (people love removing this!)
+- js
+  - skip links (github) (webAim)
+
+### In Depth Overhaul
 
 Lots of guides published in the 90s
 
@@ -81,15 +92,6 @@ WCAG 2.1 (Current)
 - no errors (parsing) https://validator.w3.org/
 - WAI-ARIA roles for custom elements
 
-### Quick Improvements
-
-    html
-    headings - (defined hierarchy)
-    css
-    focus colors (people love removing this!)
-    js
-    skip links (github) (webAim)
-
 ## Conducting a Manual Accessibility Check
 
 - Tab through your site's experience.
@@ -110,12 +112,6 @@ WAVE - 20 years (the standard)
 #### Lighthouse
 
 - https://developers.google.com/web/tools/lighthouse
-
-operable - use by typing or by voice
-understandable - clear and simple language
-Robust - people can use different assistive technologies
-ATAG - CMS / code editors, etc
-UAAG - web browsers / media players
 
 # Resources
 
